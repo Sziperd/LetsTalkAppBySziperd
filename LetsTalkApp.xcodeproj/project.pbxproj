@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		CB975F5F25C8A21A002CB8EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB975F5E25C8A21A002CB8EF /* AppDelegate.swift */; };
 		CB975F6125C8A21A002CB8EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB975F6025C8A21A002CB8EF /* SceneDelegate.swift */; };
-		CB975F6325C8A21A002CB8EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB975F6225C8A21A002CB8EF /* ViewController.swift */; };
+		CB975F6325C8A21A002CB8EF /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB975F6225C8A21A002CB8EF /* ConversationsViewController.swift */; };
 		CB975F6625C8A21A002CB8EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB975F6425C8A21A002CB8EF /* Main.storyboard */; };
 		CB975F6825C8A21E002CB8EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB975F6725C8A21E002CB8EF /* Assets.xcassets */; };
 		CB975F6B25C8A21E002CB8EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB975F6925C8A21E002CB8EF /* LaunchScreen.storyboard */; };
 		CB975F7625C8A21F002CB8EF /* LetsTalkAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB975F7525C8A21F002CB8EF /* LetsTalkAppTests.swift */; };
 		CB975F8125C8A21F002CB8EF /* LetsTalkAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB975F8025C8A21F002CB8EF /* LetsTalkAppUITests.swift */; };
+		CB975F9E25C8A99C002CB8EF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB975F9D25C8A99C002CB8EF /* LoginViewController.swift */; };
+		CB975FA625C8A9AE002CB8EF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB975FA525C8A9AE002CB8EF /* RegisterViewController.swift */; };
+		CB975FAB25C8A9CF002CB8EF /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB975FAA25C8A9CF002CB8EF /* PhotoViewerViewController.swift */; };
+		CB975FB025C8A9E2002CB8EF /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB975FAF25C8A9E2002CB8EF /* VideoPlayerViewController.swift */; };
+		CB975FB525C8AA1E002CB8EF /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB975FB425C8AA1E002CB8EF /* NewConversationViewController.swift */; };
+		CB975FBA25C8AA2C002CB8EF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB975FB925C8AA2C002CB8EF /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,7 @@
 		CB975F5B25C8A21A002CB8EF /* LetsTalkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsTalkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB975F5E25C8A21A002CB8EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB975F6025C8A21A002CB8EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CB975F6225C8A21A002CB8EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB975F6225C8A21A002CB8EF /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 		CB975F6525C8A21A002CB8EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB975F6725C8A21E002CB8EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB975F6A25C8A21E002CB8EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		CB975F7C25C8A21F002CB8EF /* LetsTalkAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsTalkAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB975F8025C8A21F002CB8EF /* LetsTalkAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsTalkAppUITests.swift; sourceTree = "<group>"; };
 		CB975F8225C8A21F002CB8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB975F9D25C8A99C002CB8EF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CB975FA525C8A9AE002CB8EF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CB975FAA25C8A9CF002CB8EF /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		CB975FAF25C8A9E2002CB8EF /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		CB975FB425C8AA1E002CB8EF /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		CB975FB925C8AA2C002CB8EF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +111,11 @@
 		CB975F5D25C8A21A002CB8EF /* LetsTalkApp */ = {
 			isa = PBXGroup;
 			children = (
-				CB975F5E25C8A21A002CB8EF /* AppDelegate.swift */,
-				CB975F6025C8A21A002CB8EF /* SceneDelegate.swift */,
-				CB975F6225C8A21A002CB8EF /* ViewController.swift */,
-				CB975F6425C8A21A002CB8EF /* Main.storyboard */,
-				CB975F6725C8A21E002CB8EF /* Assets.xcassets */,
-				CB975F6925C8A21E002CB8EF /* LaunchScreen.storyboard */,
+				CB975F9825C8A353002CB8EF /* Resources */,
+				CB975F9725C8A34C002CB8EF /* ViewModels */,
+				CB975F9625C8A346002CB8EF /* Models */,
+				CB975F9525C8A33C002CB8EF /* Views */,
+				CB975F9425C8A32B002CB8EF /* Controllers */,
 				CB975F6C25C8A21E002CB8EF /* Info.plist */,
 			);
 			path = LetsTalkApp;
@@ -126,6 +137,61 @@
 				CB975F8225C8A21F002CB8EF /* Info.plist */,
 			);
 			path = LetsTalkAppUITests;
+			sourceTree = "<group>";
+		};
+		CB975F9425C8A32B002CB8EF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB975F6225C8A21A002CB8EF /* ConversationsViewController.swift */,
+				CB975F9D25C8A99C002CB8EF /* LoginViewController.swift */,
+				CB975FA525C8A9AE002CB8EF /* RegisterViewController.swift */,
+				CB975FAA25C8A9CF002CB8EF /* PhotoViewerViewController.swift */,
+				CB975FAF25C8A9E2002CB8EF /* VideoPlayerViewController.swift */,
+				CB975FB425C8AA1E002CB8EF /* NewConversationViewController.swift */,
+				CB975FB925C8AA2C002CB8EF /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CB975F9525C8A33C002CB8EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB975F9925C8A378002CB8EF /* Storyboards */,
+				CB975F6725C8A21E002CB8EF /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CB975F9625C8A346002CB8EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CB975F9725C8A34C002CB8EF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CB975F9825C8A353002CB8EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB975F5E25C8A21A002CB8EF /* AppDelegate.swift */,
+				CB975F6025C8A21A002CB8EF /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CB975F9925C8A378002CB8EF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CB975F6425C8A21A002CB8EF /* Main.storyboard */,
+				CB975F6925C8A21E002CB8EF /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +324,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB975F6325C8A21A002CB8EF /* ViewController.swift in Sources */,
+				CB975F9E25C8A99C002CB8EF /* LoginViewController.swift in Sources */,
+				CB975FA625C8A9AE002CB8EF /* RegisterViewController.swift in Sources */,
+				CB975FB525C8AA1E002CB8EF /* NewConversationViewController.swift in Sources */,
+				CB975F6325C8A21A002CB8EF /* ConversationsViewController.swift in Sources */,
+				CB975FB025C8A9E2002CB8EF /* VideoPlayerViewController.swift in Sources */,
 				CB975F5F25C8A21A002CB8EF /* AppDelegate.swift in Sources */,
+				CB975FBA25C8AA2C002CB8EF /* ProfileViewController.swift in Sources */,
 				CB975F6125C8A21A002CB8EF /* SceneDelegate.swift in Sources */,
+				CB975FAB25C8A9CF002CB8EF /* PhotoViewerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
