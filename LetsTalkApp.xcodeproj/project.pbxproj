@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB975F5F25C8A21A002CB8EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB975F5E25C8A21A002CB8EF /* AppDelegate.swift */; };
+		CB975F6125C8A21A002CB8EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB975F6025C8A21A002CB8EF /* SceneDelegate.swift */; };
+		CB975F6325C8A21A002CB8EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB975F6225C8A21A002CB8EF /* ViewController.swift */; };
+		CB975F6625C8A21A002CB8EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB975F6425C8A21A002CB8EF /* Main.storyboard */; };
+		CB975F6825C8A21E002CB8EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB975F6725C8A21E002CB8EF /* Assets.xcassets */; };
+		CB975F6B25C8A21E002CB8EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB975F6925C8A21E002CB8EF /* LaunchScreen.storyboard */; };
+		CB975F7625C8A21F002CB8EF /* LetsTalkAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB975F7525C8A21F002CB8EF /* LetsTalkAppTests.swift */; };
+		CB975F8125C8A21F002CB8EF /* LetsTalkAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB975F8025C8A21F002CB8EF /* LetsTalkAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB975F7225C8A21F002CB8EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB975F5325C8A21A002CB8EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB975F5A25C8A21A002CB8EF;
+			remoteInfo = LetsTalkApp;
+		};
+		CB975F7D25C8A21F002CB8EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB975F5325C8A21A002CB8EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB975F5A25C8A21A002CB8EF;
+			remoteInfo = LetsTalkApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB975F5B25C8A21A002CB8EF /* LetsTalkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsTalkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB975F5E25C8A21A002CB8EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB975F6025C8A21A002CB8EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CB975F6225C8A21A002CB8EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB975F6525C8A21A002CB8EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB975F6725C8A21E002CB8EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB975F6A25C8A21E002CB8EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB975F6C25C8A21E002CB8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB975F7125C8A21F002CB8EF /* LetsTalkAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsTalkAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB975F7525C8A21F002CB8EF /* LetsTalkAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsTalkAppTests.swift; sourceTree = "<group>"; };
+		CB975F7725C8A21F002CB8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB975F7C25C8A21F002CB8EF /* LetsTalkAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsTalkAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB975F8025C8A21F002CB8EF /* LetsTalkAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsTalkAppUITests.swift; sourceTree = "<group>"; };
+		CB975F8225C8A21F002CB8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB975F5825C8A21A002CB8EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB975F6E25C8A21F002CB8EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB975F7925C8A21F002CB8EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB975F5225C8A21A002CB8EF = {
+			isa = PBXGroup;
+			children = (
+				CB975F5D25C8A21A002CB8EF /* LetsTalkApp */,
+				CB975F7425C8A21F002CB8EF /* LetsTalkAppTests */,
+				CB975F7F25C8A21F002CB8EF /* LetsTalkAppUITests */,
+				CB975F5C25C8A21A002CB8EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB975F5C25C8A21A002CB8EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB975F5B25C8A21A002CB8EF /* LetsTalkApp.app */,
+				CB975F7125C8A21F002CB8EF /* LetsTalkAppTests.xctest */,
+				CB975F7C25C8A21F002CB8EF /* LetsTalkAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB975F5D25C8A21A002CB8EF /* LetsTalkApp */ = {
+			isa = PBXGroup;
+			children = (
+				CB975F5E25C8A21A002CB8EF /* AppDelegate.swift */,
+				CB975F6025C8A21A002CB8EF /* SceneDelegate.swift */,
+				CB975F6225C8A21A002CB8EF /* ViewController.swift */,
+				CB975F6425C8A21A002CB8EF /* Main.storyboard */,
+				CB975F6725C8A21E002CB8EF /* Assets.xcassets */,
+				CB975F6925C8A21E002CB8EF /* LaunchScreen.storyboard */,
+				CB975F6C25C8A21E002CB8EF /* Info.plist */,
+			);
+			path = LetsTalkApp;
+			sourceTree = "<group>";
+		};
+		CB975F7425C8A21F002CB8EF /* LetsTalkAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB975F7525C8A21F002CB8EF /* LetsTalkAppTests.swift */,
+				CB975F7725C8A21F002CB8EF /* Info.plist */,
+			);
+			path = LetsTalkAppTests;
+			sourceTree = "<group>";
+		};
+		CB975F7F25C8A21F002CB8EF /* LetsTalkAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB975F8025C8A21F002CB8EF /* LetsTalkAppUITests.swift */,
+				CB975F8225C8A21F002CB8EF /* Info.plist */,
+			);
+			path = LetsTalkAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB975F5A25C8A21A002CB8EF /* LetsTalkApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB975F8525C8A21F002CB8EF /* Build configuration list for PBXNativeTarget "LetsTalkApp" */;
+			buildPhases = (
+				CB975F5725C8A21A002CB8EF /* Sources */,
+				CB975F5825C8A21A002CB8EF /* Frameworks */,
+				CB975F5925C8A21A002CB8EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetsTalkApp;
+			productName = LetsTalkApp;
+			productReference = CB975F5B25C8A21A002CB8EF /* LetsTalkApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB975F7025C8A21F002CB8EF /* LetsTalkAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB975F8825C8A21F002CB8EF /* Build configuration list for PBXNativeTarget "LetsTalkAppTests" */;
+			buildPhases = (
+				CB975F6D25C8A21F002CB8EF /* Sources */,
+				CB975F6E25C8A21F002CB8EF /* Frameworks */,
+				CB975F6F25C8A21F002CB8EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB975F7325C8A21F002CB8EF /* PBXTargetDependency */,
+			);
+			name = LetsTalkAppTests;
+			productName = LetsTalkAppTests;
+			productReference = CB975F7125C8A21F002CB8EF /* LetsTalkAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB975F7B25C8A21F002CB8EF /* LetsTalkAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB975F8B25C8A21F002CB8EF /* Build configuration list for PBXNativeTarget "LetsTalkAppUITests" */;
+			buildPhases = (
+				CB975F7825C8A21F002CB8EF /* Sources */,
+				CB975F7925C8A21F002CB8EF /* Frameworks */,
+				CB975F7A25C8A21F002CB8EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB975F7E25C8A21F002CB8EF /* PBXTargetDependency */,
+			);
+			name = LetsTalkAppUITests;
+			productName = LetsTalkAppUITests;
+			productReference = CB975F7C25C8A21F002CB8EF /* LetsTalkAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB975F5325C8A21A002CB8EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CB975F5A25C8A21A002CB8EF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CB975F7025C8A21F002CB8EF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CB975F5A25C8A21A002CB8EF;
+					};
+					CB975F7B25C8A21F002CB8EF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CB975F5A25C8A21A002CB8EF;
+					};
+				};
+			};
+			buildConfigurationList = CB975F5625C8A21A002CB8EF /* Build configuration list for PBXProject "LetsTalkApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB975F5225C8A21A002CB8EF;
+			productRefGroup = CB975F5C25C8A21A002CB8EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB975F5A25C8A21A002CB8EF /* LetsTalkApp */,
+				CB975F7025C8A21F002CB8EF /* LetsTalkAppTests */,
+				CB975F7B25C8A21F002CB8EF /* LetsTalkAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB975F5925C8A21A002CB8EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB975F6B25C8A21E002CB8EF /* LaunchScreen.storyboard in Resources */,
+				CB975F6825C8A21E002CB8EF /* Assets.xcassets in Resources */,
+				CB975F6625C8A21A002CB8EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB975F6F25C8A21F002CB8EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB975F7A25C8A21F002CB8EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB975F5725C8A21A002CB8EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB975F6325C8A21A002CB8EF /* ViewController.swift in Sources */,
+				CB975F5F25C8A21A002CB8EF /* AppDelegate.swift in Sources */,
+				CB975F6125C8A21A002CB8EF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB975F6D25C8A21F002CB8EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB975F7625C8A21F002CB8EF /* LetsTalkAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB975F7825C8A21F002CB8EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB975F8125C8A21F002CB8EF /* LetsTalkAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB975F7325C8A21F002CB8EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB975F5A25C8A21A002CB8EF /* LetsTalkApp */;
+			targetProxy = CB975F7225C8A21F002CB8EF /* PBXContainerItemProxy */;
+		};
+		CB975F7E25C8A21F002CB8EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB975F5A25C8A21A002CB8EF /* LetsTalkApp */;
+			targetProxy = CB975F7D25C8A21F002CB8EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB975F6425C8A21A002CB8EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB975F6525C8A21A002CB8EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB975F6925C8A21E002CB8EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB975F6A25C8A21E002CB8EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB975F8325C8A21F002CB8EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB975F8425C8A21F002CB8EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB975F8625C8A21F002CB8EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49FR6B46HX;
+				INFOPLIST_FILE = LetsTalkApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Patryk-Piwowarczyk.LetsTalkApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB975F8725C8A21F002CB8EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49FR6B46HX;
+				INFOPLIST_FILE = LetsTalkApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Patryk-Piwowarczyk.LetsTalkApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB975F8925C8A21F002CB8EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49FR6B46HX;
+				INFOPLIST_FILE = LetsTalkAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Patryk-Piwowarczyk.LetsTalkAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetsTalkApp.app/LetsTalkApp";
+			};
+			name = Debug;
+		};
+		CB975F8A25C8A21F002CB8EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49FR6B46HX;
+				INFOPLIST_FILE = LetsTalkAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Patryk-Piwowarczyk.LetsTalkAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetsTalkApp.app/LetsTalkApp";
+			};
+			name = Release;
+		};
+		CB975F8C25C8A21F002CB8EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49FR6B46HX;
+				INFOPLIST_FILE = LetsTalkAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Patryk-Piwowarczyk.LetsTalkAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LetsTalkApp;
+			};
+			name = Debug;
+		};
+		CB975F8D25C8A21F002CB8EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49FR6B46HX;
+				INFOPLIST_FILE = LetsTalkAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Patryk-Piwowarczyk.LetsTalkAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LetsTalkApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB975F5625C8A21A002CB8EF /* Build configuration list for PBXProject "LetsTalkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB975F8325C8A21F002CB8EF /* Debug */,
+				CB975F8425C8A21F002CB8EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB975F8525C8A21F002CB8EF /* Build configuration list for PBXNativeTarget "LetsTalkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB975F8625C8A21F002CB8EF /* Debug */,
+				CB975F8725C8A21F002CB8EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB975F8825C8A21F002CB8EF /* Build configuration list for PBXNativeTarget "LetsTalkAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB975F8925C8A21F002CB8EF /* Debug */,
+				CB975F8A25C8A21F002CB8EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB975F8B25C8A21F002CB8EF /* Build configuration list for PBXNativeTarget "LetsTalkAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB975F8C25C8A21F002CB8EF /* Debug */,
+				CB975F8D25C8A21F002CB8EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB975F5325C8A21A002CB8EF /* Project object */;
+}
